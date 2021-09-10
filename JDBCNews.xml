@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JDBC_News" configfailurepolicy="continue">
+
+    <test name="JDBC News">
+
+        <classes>
+            <class name="com.actimize.automation.redeye.tests.JDBCNews" />
+        </classes>
+    </test>
+
+</suite>
