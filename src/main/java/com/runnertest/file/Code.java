@@ -118,7 +118,6 @@ public class Code {
                              mapinserthost=entry.getValue()
                              ;
                          }
-                         //Display map values
                          log.info(mapinsertid+mapinserts+mapinserttype+mapinserthost);
                          try {
                              Class.forName("org.hsqldb.jdbc.JDBCDriver");
