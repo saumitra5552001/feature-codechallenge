@@ -119,7 +119,6 @@ public class Code {
                              ;
                          }
                          log.info(mapinsertid+mapinserts+mapinserttype+mapinserthost);
-    //
                          try {
                              Class.forName("org.hsqldb.jdbc.JDBCDriver");
                              con = DriverManager.getConnection( config.getProperty("URL"), config.getProperty("USER"), "");
