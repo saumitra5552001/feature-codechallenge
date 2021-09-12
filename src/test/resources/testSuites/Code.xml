@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Code" configfailurepolicy="continue">
+
+    <test name="Code">
+
+        <classes>
+            <class name="com.runnertest.file.Code" />
+        </classes>
+    </test>
+
+</suite>
