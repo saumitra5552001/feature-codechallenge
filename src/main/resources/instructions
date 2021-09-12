@@ -1,0 +1,6 @@
+GITURL:https://github.com/saumitra5552001/feature-codechallenge.git
+Steps to run :
+* Clone the code
+* Run below command in the maven command line
+
+mvn clean test -Dsuite='src/test/resources/testSuites/Code.xml'
